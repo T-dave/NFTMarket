@@ -1,0 +1,58 @@
+.header{
+    background-image: url('/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.middle{
+    background-image: url('/headerBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+.envelope{
+    background: linear-gradient(188.08deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 93.79%),
+    linear-gradient(0deg, #060714, #060714);
+    display: flex;
+    border-radius: 0px 20px 20px 20px;
+}
+.button2{
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    padding: 16px 24px;
+    border-radius: 12px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .saleCard1 {
+    max-width: 448px;
+  }
+  .bottomSale {
+    background: linear-gradient(188.08deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 93.79%),
+    linear-gradient(0deg, #060714, #060714);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-width: 0px;
+    border-radius: 0px 0px 20px  20px;
+    padding: 50px;
+
+  }
+  .saleCard2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #262840;
+    background: #060714;
+    border-radius: 20px;
+    padding: 50px 0px;
+    max-width: 448px;
+  }
+  .detailPrice{
+    background: linear-gradient(187.96deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 93.86%),
+    linear-gradient(0deg, #060714, #060714);
+    border-radius: 20px;
+    padding: 20px;
+  }
